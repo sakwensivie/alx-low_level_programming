@@ -1,8 +1,8 @@
-#include<stdio.h>
+#include<studio.h>
 /**
  *  main - Entry point
  *
- *  A c program that prints a string
+ *  A c program that prints a string.
  *
  *  Return: Always 0 (Success)
  */
