@@ -2,6 +2,8 @@
 /**
  * main-Entry point
  *
+ * A program to print
+ *
  * Return : Always 0 (success)
  *
  */
