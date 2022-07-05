@@ -14,6 +14,6 @@ void times_table(void)
 		{
 			putchar(x * y);
 		}
-		putchar('\n');
+		_putchar('\n');
 	}
 }
