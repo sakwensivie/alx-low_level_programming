@@ -1,0 +1,16 @@
+#include<main.h>
+/*
+ * print_alphabet - print the alphabet is lowercase
+ * 
+ * Return: Always 0 success
+ */
+void print_alphabet(void)
+{
+	int i;
+
+	for (i = 97; i < 123; i++)
+	{
+		_purchar(i);
+	}
+	_putchar('\n');
+}
