@@ -1,4 +1,4 @@
-nclude<main.h>
+#include"main.h"
 /*
  * sign - checks for the sign of a number
  *
