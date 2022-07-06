@@ -1,4 +1,3 @@
-#include<stdio.h>
 #include"main.h"
 /**
  * largest_number - Prints the largest number out of 3 numbers.
