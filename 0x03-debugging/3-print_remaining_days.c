@@ -1,4 +1,4 @@
-#include"main"
+#include"main.h"
 /**
  * print_remaining_days - takes a day and prints how
  * many days are left in a year
