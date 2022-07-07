@@ -16,7 +16,7 @@ int main(void)
 	do {
 		if (n % p == 0)
 		{
-			printf("%d, ", p);
+			/*printf("%d, ", p);*/
 			n = n / p;
 		}
 		else
