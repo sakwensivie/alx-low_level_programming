@@ -21,14 +21,14 @@ void print_rev(char *s)
 	{
 		if (i != 0)
 		{
-			_putchar(s[i]);
+			_putchar(s[i - 1]);
 		}
 		else
 		{
-			_putchar(s[i]);
+			/*_putchar(s[i]);*/
 			break;
 		}
 		i--;
 	}
-	/*_putchar('\n');*/
+	_putchar('\n');
 }
