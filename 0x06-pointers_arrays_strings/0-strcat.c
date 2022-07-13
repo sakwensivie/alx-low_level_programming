@@ -9,7 +9,6 @@
 char *_strcat(char *dest, char *src)
 {
 	int count;
-	char *tmp;
 
 	count = 0;
 
@@ -22,8 +21,7 @@ char *_strcat(char *dest, char *src)
 		}
 		count++;
 	}
-	tmp = src;
-	dest[count] = *tmp;
+	dest[count] = src[0];
 
 	return (dest);
 }
