@@ -6,7 +6,7 @@
  * @src: input as a string array
  * Return: character array
  */
-char *_strcat(char *dest, char *src);
+char *_strcat(char *dest, char *src)
 {
 	int count;
 	char *tmp;
@@ -23,7 +23,7 @@ char *_strcat(char *dest, char *src);
 		count++;
 	}
 	tmp = src;
-	dest[count] = tmp;
+	dest[count] = *tmp;
 
 	return (dest);
 }
