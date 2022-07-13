@@ -8,20 +8,28 @@
  */
 char *_strcat(char *dest, char *src)
 {
-	int count;
+	int count1, count2;
 
-	count = 0;
+	count1 = count2 = 0;
 
 	while (1)
 	{
-		if (dest[count] == '\0')
+		if (dest[count1] == '\0')
 		{
-			count++;
 			break;
 		}
-		count++;
+		count1++;
 	}
-	dest[count] = src[0];
+	while (1)
+	{
+		if (src[count2] == '\0')
+		{
+			break;
+		}
+		dest[count1] = src[count2];
+		count1++;
+		count2++;
+	}
 
 	return (dest);
 }
