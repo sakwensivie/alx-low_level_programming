@@ -21,6 +21,6 @@ char *string_toupper(char *str)
 			}
 		}
 	}
-	
+
 	return (str);
 }
