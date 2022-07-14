@@ -16,11 +16,9 @@ char *leet(char *str)
 
 	for (i = 0; str[i] != '\0'; i++)
 	{
-		/*if (str[i] == '\0')
-			break;*/
 		for (j = 0; j < alph[5]; j++)
 		{
-			if (str[i] == alph[j] || str [i] == alph[j+5])
+			if (str[i] == alph[j] || str[i] == alph[j + 5])
 				str[i] = leet[j];
 		}
 	}
