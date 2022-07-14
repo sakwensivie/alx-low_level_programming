@@ -5,15 +5,15 @@
  * @n: input as an integer
  * Reurun: none
  */
-void reverse_array(int *a, int n);
+void reverse_array(int *a, int n)
 {
 	int i, tmp;
 
-	for (i = 0; i < ((1 / 2) * (n - 2)); i++)
+	for (i = 0; i < (n - 1)/2; i++)
 	{
-		tmp = str[i];
-		str[i] = str[n - i];
-		str[n - i] = tmp;
+		tmp = a[i];
+		a[i] = a[(n - 1) - i];
+		a[(n - 1) - i] = tmp;
 	}
 }
 
