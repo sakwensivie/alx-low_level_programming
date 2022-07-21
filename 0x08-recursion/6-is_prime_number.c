@@ -8,7 +8,7 @@
 int det_prime(int n, int i)
 {
 	if (i == n)
-		return (!);
+		return (1);
 	else if ((n % i) == 0)
 		return (0);
 	else
