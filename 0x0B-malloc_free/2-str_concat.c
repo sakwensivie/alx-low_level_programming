@@ -27,7 +27,7 @@ char *str_concat(char *s1, char *s2)
 	}
 	for (k = 0; k <= j; k++)
 	{
-		*(ptr + i + j) = *(s2 + j);
+		*(ptr + i + j + 1) = *(s2 + j);
 	}
 	return (ptr);
 }
