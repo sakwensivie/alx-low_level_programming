@@ -7,9 +7,9 @@
  */
 int *array_range(int min, int max)
 {
-	int *ptr, tize, i;
+	int *ptr, tsize, i;
 
-	tsize = (max - max + 1);
+	tsize = (max - min + 1);
 
 	if (min > max)
 		return (NULL);
