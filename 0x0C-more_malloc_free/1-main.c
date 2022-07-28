@@ -8,7 +8,7 @@ int main(void)
 {
 	char *concat;
 
-	concat = string_nconcat("", "picture", 1);
+	concat = string_nconcat("Best school ", "In the town", 6);
 	printf("%s\n", concat);
 	free(concat);
 	return (0);
