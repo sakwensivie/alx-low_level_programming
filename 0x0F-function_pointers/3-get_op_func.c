@@ -4,9 +4,10 @@
  * get_op_func - gets the correct operation
  * @s: input as a string
  *
- * Return: the function pointer that 
+ * Return: the function pointer that
  * points to the preferred operator
  */
+int (*get_op_func(char *s))(int, int)
 {
 	op_t ops[] = {
 		{"+", op_add},
