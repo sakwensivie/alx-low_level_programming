@@ -2,7 +2,7 @@
 
 /**
  * get_dnodeint_at_index - returns the node at a certain int
- * 
+ *
  * @head: pointer to head of a list
  * @index: index of the node to retrieve
  *
@@ -24,7 +24,7 @@ dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)
 
 	num_of_nodes = dlistint_len(head);
 
-	if ( index > num_of_nodes)
+	if (index > num_of_nodes)
 		return (NULL);
 
 	for (count = 0; count < index; count++)
